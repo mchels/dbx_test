@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbx-test"
+version = "0.1.0"
+description = ""
+authors = ["Morten Hels <foo@bar.com>"]
+readme = "README.md"
+packages = [{include = "dbx_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
