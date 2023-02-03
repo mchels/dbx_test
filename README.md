@@ -25,3 +25,7 @@ RuntimeError: Provided task type notebook_task is not supported in execute mode.
 1. https://stackoverflow.com/questions/73490143/how-do-i-include-and-install-test-files-in-a-wheel-and-deploy-to-databricks
 2. https://github.com/smurching/dbx-example-project
 3. Deployment file reference: https://dbx.readthedocs.io/en/latest/reference/deployment/
+4. Databricks notebook gallery https://github.com/databricks/notebook_gallery
+5. Best practices for databricks notebooks: https://github.com/databricks/notebook-best-practices
+6. Build setup with poetry (and others): https://dbx.readthedocs.io/en/latest/features/build_management/
+7. Difference between `dbx execute` and `dbx launch`: https://dbx.readthedocs.io/en/latest/faq/#whats-the-difference-between-dbx-execute-and-dbx-launch
