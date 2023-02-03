@@ -7,11 +7,12 @@ Go through these steps to start using dbx: https://docs.databricks.com/dev-tools
     3. Copy the files in this repo to your own repo.
     4. Push your own repo.
     5. Add your own repo in databricks (you will need to set up access tokens in databricks for the git provider you use).
-    6. Run `dbx-demo-job.py` with `dbx execute --cluster-id='your-cluster-id' dbx-demo-job --no-package`
+    6. Run a flat python file with `dbx-demo-job.py` with `dbx execute --cluster-id='your-cluster-id' dbx-demo-job --no-package`
+    7. Run a databricks notebook with `dbx execute --cluster-id='your-cluter-id' dbx-notebook-demo-job --no-package`
 
 
 ## Notes
-`dbx execute` cannot run a notebook. Doing
+`dbx execute` cannot run a `notebook_task`. Doing
 ```
 dbx execute --cluster-id='your-cluster-id' dbx-notebook-demo-job --no-package
 ```
