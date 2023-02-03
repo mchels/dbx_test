@@ -1,2 +1,3 @@
 # Databricks eXtensions
 .dbx/lock.json
+.dbx/sync
