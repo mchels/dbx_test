@@ -6,7 +6,8 @@ Go through these steps to start using dbx: https://docs.databricks.com/dev-tools
     2. `databricks configure --token` (https://docs.databricks.com/dev-tools/cli/index.html#set-up-authentication)
     3. Copy the files in this repo to your own repo.
     4. Push your own repo.
-    5. Add your own repo in databricks (you will need to set up access tokens in databricks for the git provider you use).
+    5. Add your own repo in databricks (you will need to set up access tokens in databricks for the
+    git provider you use).
     6. Run a flat python file with `dbx-demo-job.py` with `dbx execute --cluster-id='your-cluster-id' dbx-demo-job --no-package`
     7. Run a databricks notebook with `dbx execute --cluster-id='your-cluter-id' dbx-notebook-demo-job --no-package`
 
@@ -32,6 +33,9 @@ RuntimeError: Provided task type notebook_task is not supported in execute mode.
 2. https://github.com/smurching/dbx-example-project
 3. Deployment file reference: https://dbx.readthedocs.io/en/latest/reference/deployment/
 4. Databricks notebook gallery https://github.com/databricks/notebook_gallery
-5. Best practices for databricks notebooks: https://github.com/databricks/notebook-best-practices
+5. Best practices for databricks notebooks:
+   https://docs.databricks.com/notebooks/best-practices.html with accompanying repo
+   https://github.com/databricks/notebook-best-practices
 6. Build setup with poetry (and others): https://dbx.readthedocs.io/en/latest/features/build_management/
 7. Difference between `dbx execute` and `dbx launch`: https://dbx.readthedocs.io/en/latest/faq/#whats-the-difference-between-dbx-execute-and-dbx-launch
+8. Various options for structuring notebooks and flat files: https://towardsdatascience.com/databricks-notebooks-a-love-hate-relationship-8f73e5b291fb
