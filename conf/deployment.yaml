@@ -6,3 +6,6 @@ environments:
       - name: "dbx-demo-job"
         spark_python_task:
           python_file: "file://dbx-demo-job.py"
+      - name: "dbx-notebook-demo-job"
+        notebook_task:
+            notebook_path: "file://notebook2.py"
