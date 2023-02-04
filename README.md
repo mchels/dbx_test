@@ -9,7 +9,7 @@ Go through these steps to start using dbx: https://docs.databricks.com/dev-tools
 4. Push your own repo.
 5. Add your own repo in databricks (you will need to set up access tokens in databricks for the
    git provider you use).
-6. Run a flat python file with `dbx-demo-job.py` with `dbx execute --cluster-id='your-cluster-id' dbx-demo-job --no-package`
+6. Run a flat python file `dbx-demo-job.py` with `dbx execute --cluster-id='your-cluster-id' dbx-demo-job --no-package`
 7. Run a databricks notebook with `dbx execute --cluster-id='your-cluter-id' dbx-notebook-demo-job --no-package`
 
 Run `dbx sync repo --dest-repo dbx_test` to continuously synchronize your local copy with the
